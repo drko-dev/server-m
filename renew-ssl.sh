@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd /opt/letsencrypt/
-./certbot-auto --config /etc/letsencrypt/configs/my-domain.conf certonly
+./certbot-auto --config /etc/letsencrypt/configs/sinsalavin.tk.conf certonly
 
 
 if [ $? -ne 0 ]
